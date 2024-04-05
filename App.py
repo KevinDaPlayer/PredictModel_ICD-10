@@ -27,13 +27,12 @@ def predict_icd10():
             "min_new_tokens": -1
         }
     )
-    # 初始化一个空字符串来累加文本
     accumulated_text = ""
     for item in output:
         accumulated_text += item
     print(accumulated_text)
 
-    return jsonify({accumulated_text})
+    return jsonify({"result" : accumulated_text})
 
 if __name__ == '__main__':
     app.run(debug=True)
