@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_X5rkjHHRqccTNA4yJQhS5EKbEIsFBbT3Sdzge"
+os.environ["REPLICATE_API_TOKEN"] = "r8_4JO1mJF1pLdQTDVBvrPOxoPXiAAPh0Q0efBXH"
 
 @app.route('/predict_icd10',methods=['POST'])
 def predict_icd10():
