@@ -1,7 +1,7 @@
 import replicate
 import os
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_X5rkjHHRqccTNA4yJQhS5EKbEIsFBbT3Sdzge"
+os.environ["REPLICATE_API_TOKEN"] = "r8_FE7Ff4mYz5di3suUx7WS4nmueyrvYtT2L12rl"
 
 output = replicate.run(
     "meta/llama-2-70b-chat:02e509c789964a7ea8736978a43525956ef40397be9033abf9fd2badfe68c9e3",
